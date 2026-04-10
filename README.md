@@ -36,6 +36,14 @@ Hệ thống thông báo đẩy giúp nhắc nhở người dùng về suất ch
 |:---:|:---:|
 | <img src="image/setupFCM.png" width="400"> | <img src="image/notification.png" width="300"> |
 
+## 🗄️ Cấu trúc Dữ liệu Firebase (Cloud Firestore)
+
+Dữ liệu phim, rạp và vé được quản lý tập trung trên Firebase Firestore.
+
+| Quản lý Data trên Firestore Console |
+|:---:|
+| <img src="image/data_firestore.png" width="800"> |
+
 ## 🛠 Công nghệ sử dụng
 
 - **Ngôn ngữ:** Java / Android SDK
