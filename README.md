@@ -59,4 +59,4 @@ Dữ liệu phim, rạp và vé được quản lý tập trung trên Firebase F
 4. Chạy ứng dụng và trải nghiệm.
 
 ---
-*Phát triển bởi MovieApp Team* 🍿
+*Phát triển bởi Đinh Quang Hưng - B22DCCN407* 🍿
