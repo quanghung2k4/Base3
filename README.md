@@ -6,7 +6,7 @@
 
 - **Đăng nhập Firebase Auth:** Bảo mật, nhanh chóng.
 - **Danh sách phim (Home):** Hiển thị danh sách phim đang chiếu với hình ảnh chất lượng cao.
-- **Chi tiết phim:** Xem nội dung, đánh giá và thể loại phim với hiệu ứng cuộn mượt mà.
+- **Chi tiết phim:** Xem nội dung, đánh giá và thể loại phim với hiệu ứng cuộn mượt mả.
 - **Đặt vé thông minh (Booking):** 
   - Chọn rạp và suất chiếu linh hoạt.
   - Giao diện chọn vị trí ghế (Seat Map) trực quan.
@@ -26,7 +26,7 @@
 
 | Danh sách Vé đã đặt |
 |:---:|
-| <img src="image/ticket.jpg" width="300"> |
+| <img src="image/ticket_firestore.png" width="300"> |
 
 ## 🔔 Firebase Cloud Messaging (FCM)
 
@@ -38,7 +38,7 @@ Hệ thống thông báo đẩy giúp nhắc nhở người dùng về suất ch
 
 ## 🗄️ Cấu trúc Dữ liệu Firebase (Cloud Firestore)
 
-Dữ liệu phim, rạp và vé được quản lý tập trung trên Firebase Firestore.
+Dữ liệu phim, rạp và vé được quản lý tập trung trên Firebase Firestore, đảm bảo tính đồng bộ thời gian thực.
 
 | Quản lý Data trên Firestore Console |
 |:---:|
