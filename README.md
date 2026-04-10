@@ -28,6 +28,14 @@
 |:---:|
 | <img src="image/ticket.jpg" width="300"> |
 
+## 🔔 Firebase Cloud Messaging (FCM)
+
+Hệ thống thông báo đẩy giúp nhắc nhở người dùng về suất chiếu sắp tới.
+
+| Thiết lập Campaign trên Console | Thông báo hiển thị trên thiết bị |
+|:---:|:---:|
+| <img src="image/setupFCM.png" width="400"> | <img src="image/notification.png" width="300"> |
+
 ## 🛠 Công nghệ sử dụng
 
 - **Ngôn ngữ:** Java / Android SDK

@@ -66,6 +66,16 @@ public class MainActivity extends AppCompatActivity implements MovieAdapter.OnMo
 
         askNotificationPermission();
         fetchMovies();
+        com.google.firebase.messaging.FirebaseMessaging.getInstance().getToken()
+                .addOnCompleteListener(task -> {
+                    if (!task.isSuccessful()) {
+                        android.util.Log.w("FCM_TEST", "Lấy token thất bại", task.getException());
+                        return;
+                    }
+                    // Token hiện ở đây:
+                    String token = task.getResult();
+                    android.util.Log.d("FCM_TEST", "Token của máy bạn là: " + token);
+                });
     }
 
     private void askNotificationPermission() {
